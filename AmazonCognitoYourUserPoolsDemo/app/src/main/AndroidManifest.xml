@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.amazonaws.youruserpools.CognitoYourUserPoolsDemo">
+          package="com.amazonaws.youruserpools.CognitoYourUserPoolsDemo">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -12,61 +12,61 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.amazonaws.youruserpools.MainActivity"
+            android:name="com.amazonaws.youruserpools.activity.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
-            android:name="com.amazonaws.youruserpools.UserActivity"
+            android:name="com.amazonaws.youruserpools.activity.UserActivity"
             android:label="@string/title_activity_user"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.RegisterUser"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.amazonaws.youruserpools.activity.RegisterUser"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.AboutApp"
+            android:name="com.amazonaws.youruserpools.activity.AboutApp"
             android:label="@string/title_activity_about_app"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.SignUpConfirm"
+            android:name="com.amazonaws.youruserpools.activity.SignUpConfirm"
             android:label="@string/title_activity_sign_up_confirm"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.MFAActivity"
+            android:name="com.amazonaws.youruserpools.activity.MFAActivity"
             android:label="@string/title_activity_mfa"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.ForgotPasswordActivity"
+            android:name="com.amazonaws.youruserpools.activity.ForgotPasswordActivity"
             android:label="@string/title_activity_forgot_password"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.SettingsActivity"
+            android:name="com.amazonaws.youruserpools.activity.SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.ChangePasswordActivity"
+            android:name="com.amazonaws.youruserpools.activity.ChangePasswordActivity"
             android:label="@string/title_activity_change_password"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.VerifyActivity"
+            android:name="com.amazonaws.youruserpools.activity.VerifyActivity"
             android:label="@string/title_activity_verify"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.AddAttributeActivity"
+            android:name="com.amazonaws.youruserpools.activity.AddAttributeActivity"
             android:label="@string/title_activity_add_attribute"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name="com.amazonaws.youruserpools.DeviceSettings"
             android:label="@string/title_activity_device_settings"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.amazonaws.youruserpools.NewPassword"
+            android:name="com.amazonaws.youruserpools.activity.NewPassword"
             android:label="@string/title_activity_new_password"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

@@ -15,7 +15,7 @@
  *  limitations under the License.
  */
 
-package com.amazonaws.youruserpools;
+package com.amazonaws.youruserpools.activity;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -40,6 +40,7 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserDetails
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.VerificationHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
+import com.amazonaws.youruserpools.AppHelper;
 import com.amazonaws.youruserpools.CognitoYourUserPoolsDemo.R;
 
 public class VerifyActivity extends AppCompatActivity {

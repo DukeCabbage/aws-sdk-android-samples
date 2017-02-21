@@ -15,7 +15,7 @@
  *  limitations under the License.
  */
 
-package com.amazonaws.youruserpools;
+package com.amazonaws.youruserpools.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -34,6 +34,7 @@ import android.widget.TextView;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserCodeDeliveryDetails;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.VerificationHandler;
+import com.amazonaws.youruserpools.AppHelper;
 import com.amazonaws.youruserpools.CognitoYourUserPoolsDemo.R;
 
 public class SignUpConfirm extends AppCompatActivity {

@@ -15,7 +15,7 @@
  *  limitations under the License.
  */
 
-package com.amazonaws.youruserpools;
+package com.amazonaws.youruserpools.activity;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
